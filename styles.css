@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A clean, modern font */
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+.container {
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px; /* Rounder corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ddd; /* Light gray border */
+    border-radius: 8px;
+    border-right: none;
+    font-size: 1.2rem;
+    transition: border-color 0.3s ease; /* Smooth transition for focus */
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff; /* Blue border on focus */
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#visaResult {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#countryPhoto {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%; /* Increase the maximum width to fill the container */
+    height: auto; /* Let the height adjust accordingly */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+}
